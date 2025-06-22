@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>RefaceZone Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>RefaceZone Lite</h1>
+    <input type="file" id="upload" accept="image/*" />
+    <div class="editor">
+      <canvas id="canvas"></canvas>
+      <div class="controls">
+        <label>Brightness: <input type="range" id="brightness" min="0" max="200" value="100" /></label>
+        <label>Contrast: <input type="range" id="contrast" min="0" max="200" value="100" /></label>
+        <label>Blur: <input type="range" id="blur" min="0" max="10" value="0" /></label>
+        <label>Sharpness: <input type="range" id="sharpness" min="0" max="100" value="0" /></label>
+      </div>
+      <button id="download">Download Image</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+  </html>  
